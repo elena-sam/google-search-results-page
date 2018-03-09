@@ -7,39 +7,74 @@
   <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
-<body>
 
-  <div class="nav">
-    <div class="navr">
-      <ul>
-        <a href="#"><li><img src="./images/googleapps.png" alt="Google Apps" class="googleapps"></li></a>
-        <li><input class="sign-in" type="button" name="sign-in" value="Sign in"></li>
-      </ul>
+
+<body>
+  <div class="container">
+<!-- Navigation and Searching area-->
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo">
+          <img src="./images/doodle.png" alt="Google logo">
+        </div>
+
+        <div class="search">
+          <form class="s-area" action="#" type="GET">
+            <input class="s-field" type="text" name="search-field" value="Superman">
+          </form>
+        </div>
+        <div class="account">
+          <a class="googleapps" href="#"><img src="./images/googleapps.png" alt="Google Apps"></a>
+          <input class="sign-in" type="button" name="sign-in" value="Sign in">
+        </div>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <a href="#"><li id="current">All</li></a>
+          <a href="#"><li>Images</li></a>
+          <a href="#"><li>Videos</li></a>
+          <a href="#"><li>Maps</li></a>
+          <a href="#"><li>News</li></a>
+          <a href="#"><li>More</li></a>
+          <a href="#"><li id="spaced">Settings</li></a>
+          <a href="#"><li>Tools</li></a>
+        </ul>
+      </div>
     </div>
-    <div class="navl">
-      <img src="./images/doodle.png" alt="Google logo" class="logo">
-      <form action="#" type="GET" class="search">
-        <input class="s-field" type="text" name="search-field" value="Hello!">
-      </form>
-    </div>
-    <div class="menu">
-      <ul>
-        <a href="#"><li id="current">All</li></a>
-        <a href="#"><li>Images</li></a>
-        <a href="#"><li>Videos</li></a>
-        <a href="#"><li>Maps</li></a>
-        <a href="#"><li>News</li></a>
-        <a href="#"><li>More</li></a>
-        <a href="#"><li id="spaced">Settings</li></a>
-        <a href="#"><li>Tools</li></a>
-      </ul>
-    </div>
+
+
+<!-- Search Results-->
+  <div class="main">
+    <a href="#"><div class="title">Clark Kent - Wikipedia</div></a>
+    <div class="url">https://en.wikipedia.org/wiki/Clark_Kent
+</div>
+    <div class="desc">Clark Joseph Kent is a fictional character appearing in American comic books published by DC Comics. Created by Jerry Siegel and Joe Shuster, he debuted in Action Comics #1 (June 1938) and serves as the civilian and secret identity of the superhero Superman. Over the decades there has been considerable debate as ...</div>
+    <a href="#"><div class="title">Clark Kent | Superman Wiki | FANDOM powered by Wikia</div></a>
+    <div class="url">superman.wikia.com/wiki/Clark_Kent
+</div>
+    <div class="desc">Overview. Clark Kent's name is a combination of the names of actors, Clark Gable and Kent Taylor. His physical design is believed to be modeled after science fiction fan Walter Dennis, who sent Joe Shuster his photograph. Through the popularity of his Superman alter ego, the personality, concept, and name of Clark Kent ...</div>
+    <a href="#"><div class="title">Superman (Clark Kent) | DC Database | FANDOM powered by Wikia</div></a>
+    <div class="url">dc.wikia.com/wiki/Superman_(Clark_Kent)
+</div>
+    <div class="desc">Raised with high moral ideals, he uses his incredible strength, speed, flight and various other superpowers to fight evil and protect the innocent. In his civilian identity he is Clark Kent, a mild-mannered reporter working for the Daily Planet in Metropolis. He is a founding member of the Justice League of America and a charter ...</div>
+    <a href="#"><div class="title">Clark Kent | Smallville Wiki | FANDOM powered by Wikia</div></a>
+    <div class="url">smallville.wikia.com/wiki/Clark_Kent
+</div>
+    <div class="desc">Clark Kent, aka Superman, is Earth's greatest hero and the main protagonist of Smallville...</div>
+    <a href="#"><div class="title">Clark Kent | Arrowverse Wiki | FANDOM powered by Wikia</div></a>
+    <div class="url">arrow.wikia.com/wiki/Clark_Kent
+</div>
+    <div class="desc">Clark Kent (born 1979 as Kal-El) is the son of scientists Jor-El and Lara Van-El, the best friend of James Olsen and the boyfriend of Lois Lane. After being rocketed to Earth as a baby from the dying planet of Krypton alongside his older cousin Kara Zor-El, who remained stuck in the Phantom Zone - thus arriving un-aged two ...</div>
+    <a href="#"><div class="title"></div></a>
+    <div class="url"></div>
+    <div class="desc"></div>
+
   </div>
 
 
 
-
-
+<!-- Footer -->
   <div class="footer">
     <div class="footer1">
       <ul>
@@ -60,7 +95,7 @@
       </ul>
     </div>
   </div>
-
+</div>
 </body>
 
 
