@@ -370,6 +370,7 @@ textarea:focus, input:focus{
 /* Related Searches */
 
 .related {
+  width: 100%;
   display: grid;
   grid-template: 30px repeat(4, 20px) / 140px 140px;
   margin-top: 60px;
@@ -403,7 +404,7 @@ table {
 }
 
 .navstart {
-  background: url(https://www.google.fr/images/nav_logo242.webp) no-repeat;
+  background: url(./images/nav_logo.webp) no-repeat;
   background-position: -24px 0;
   width: 28px;
   height: 40px;
@@ -412,19 +413,19 @@ table {
 .cur {
   width: 20px;
   height: 40px;
-  background: url(https://www.google.fr/images/nav_logo242.webp) no-repeat;
+  background: url(./images/nav_logo.webp) no-repeat;
   background-position: -53px 0;
 }
 
 .next {
   height: 40px;
-  background: url(https://www.google.fr/images/nav_logo242.webp) no-repeat;
+  background: url(./images/nav_logo.webp) no-repeat;
   background-position: -74px 0;
   width: 20px;
 }
 
 .navend {
-  background: url(https://www.google.fr/images/nav_logo242.webp) no-repeat;
+  background: url(./images/nav_logo.webp) no-repeat;
   background-position: -97px 0;
   width: 71px;
   height: 40px;
