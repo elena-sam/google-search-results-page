@@ -375,6 +375,7 @@ textarea:focus, input:focus{
   grid-template: 30px repeat(4, 20px) / 140px 140px;
   margin-top: 60px;
   margin-bottom: 50px;
+  white-space: nowrap;
 }
 
 .related .title {
